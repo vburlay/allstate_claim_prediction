@@ -1,5 +1,5 @@
 # Allstate Claim Prediction Challenge
-> Outline a brief description of your project.
+> Outline a brief description of your project - Allstate Claim Prediction Challenge.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents 
