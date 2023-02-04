@@ -6,6 +6,8 @@
  
  > Data set: "Allstate Claim Prediction Challenge" comes from Kaggle [_here_](https://www.kaggle.com/c/ClaimPredictionChallenge/overview).
  Live demo [_here_](https://mm6iv5-vladimir-burlay.shinyapps.io/Allstate_Claim_Prediction_Challenge/?_ga=2.78724884.1491513741.1672011004-1138473289.1668534479).
+Inline-style: 
+![alt text](https://github.com/vburlay/allstate_claim_prediction/tree/main/images/claim.jpg "Logo Title Text 1")
 
 ## Table of Contents 
 * [General Info](#general-information)
