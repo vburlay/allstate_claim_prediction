@@ -1,13 +1,8 @@
 # Allstate Claim Prediction Challenge
 ![alt text](https://github.com/vburlay/allstate_claim_prediction/raw/main/image/claim.png ) 
 
-> This project has two main objectives. One was to understand how to effectively predict automobile liability insurance claim payments based on vehicle characteristics, and the other was to determine a best approach to predict automobile liability insurance claim payments using customer data. Both objectives were achieved, but there are opportunities for follow-up projects to sharpen them: 
-* By using cross-validation, an increase in the accuracy of the prediction could be achieved. In addition, the amount  of data was not satisfactory for the polynomial and the model was highly prone to overfitting.
-* The clustering procedure did not help the linear regression to demonstrate a good result. It is necessary to analyze the other procedures such as Bayes statistics approach 
-* The selected feature combinations were not suitable for modeling compared to single values. 
- 
- > Data set: "Allstate Claim Prediction Challenge" comes from Kaggle [_here_](https://www.kaggle.com/c/ClaimPredictionChallenge/overview).
- Live demo [_here_](https://mm6iv5-vladimir-burlay.shinyapps.io/Allstate_Claim_Prediction_Challenge/?_ga=2.78724884.1491513741.1672011004-1138473289.1668534479).
+> Predicting automobile liability insurance claim payments based on vehicle characteristics.
+> Live demo [_here_](https://mm6iv5-vladimir-burlay.shinyapps.io/Allstate_Claim_Prediction_Challenge/?_ga=2.78724884.1491513741.1672011004-1138473289.1668534479).
  
 ## Table of Contents 
 * [General Info](#general-information)
@@ -20,16 +15,15 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
+
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+> This project has two main objectives. One was to understand how to effectively predict automobile liability insurance claim payments based on vehicle characteristics, and the other was to determine a best approach to predict automobile liability insurance claim payments using customer data. Both objectives were achieved, but there are opportunities for follow-up projects to sharpen them: 
+* By using cross-validation, an increase in the accuracy of the prediction could be achieved. In addition, the amount  of data was not satisfactory for the polynomial and the model was highly prone to overfitting.
+* The clustering procedure did not help the linear regression to demonstrate a good result. It is necessary to analyze the other procedures such as Bayes statistics approach 
+* The selected feature combinations were not suitable for modeling compared to single values.
+ > Data set: "Allstate Claim Prediction Challenge" comes from Kaggle [_here_](https://www.kaggle.com/c/ClaimPredictionChallenge/overview).
 
 ## Technologies Used
 - Tech 1 - version 1.0
@@ -86,11 +80,5 @@ Give credit here.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [Vladimir Burlay](wladimir.burlay@gmail.com) - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
