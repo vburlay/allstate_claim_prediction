@@ -47,13 +47,16 @@ DT, dplyr, plotly, shinyjs, shinyFiles
 ## Usage
 
 * Preparation
->highCorr <- findCorrelation(correlations, cutoff = .9)
->filteredSegData <- df[,-highCorr]
->rm(df,highCorr,correlations)
->trans <- preProcess(filteredSegData, method = c("BoxCox","center","scale","pca"))
->transformed <- predict(trans,filteredSegData)
+```r
+highCorr <- findCorrelation(correlations, cutoff = .9)
+filteredSegData <- df[,-highCorr]
+rm(df,highCorr,correlations)
+trans <- preProcess(filteredSegData, method = c("BoxCox","center","scale","pca"))
+transformed <- predict(trans,filteredSegData)
+```
 * GBM
->ames_gbm1 <- gbm(formula = trainSet$Claim_Amount ~ .,
+```r
+ames_gbm1 <- gbm(formula = trainSet$Claim_Amount ~ .,
                  data = trainSet,
                  distribution = "gaussian",
                  n.trees = 500,
@@ -61,14 +64,17 @@ DT, dplyr, plotly, shinyjs, shinyFiles
                  interaction.depth = 3,
                  n.minobsinnode = 10,
                  cv.folds = 5 )
+```                 
 * Random Forest
->model_rf <- randomForest(trainSet$Claim_Amount ~ .,
+```r
+model_rf <- randomForest(trainSet$Claim_Amount ~ .,
                           data = trainSet,
                           importance =TRUE,
                           ntree = 110)
-
+```
 * NNET
->nnetFit <- nnet(predictors, outcome,
+```r
+nnetFit <- nnet(predictors, outcome,
                 size = 5,
                 decay = 0.01,
                 linout = TRUE,
@@ -76,7 +82,7 @@ DT, dplyr, plotly, shinyjs, shinyFiles
                 maxit = 500,
                 MaxNWts = 5 * (ncol(predictors) + 1) + 5 + 1)
 predictions <- round(predict(nnetFit, testSet, interval = "predict", level = 0.95),2)
-
+```
 ## Project Status
 
 Project is: _complete_ 
