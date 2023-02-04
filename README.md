@@ -29,7 +29,6 @@
 - Shiny - version 1.7.4
 
 ## Features
----
 - tidyverse
 - Lineare regression
 - Machine Learning ( gbm + random forest + single-hidden-layer neural network)
