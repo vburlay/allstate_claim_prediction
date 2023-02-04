@@ -6,7 +6,7 @@
 > Live demo [_here_](https://mm6iv5-vladimir-burlay.shinyapps.io/Allstate_Claim_Prediction_Challenge/?_ga=2.78724884.1491513741.1672011004-1138473289.1668534479).
  
 ## Table of Contents 
----
+
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
@@ -20,7 +20,7 @@
 
 
 ## General Information
----
+
 > This project has two main objectives. One was to understand how to effectively predict automobile liability insurance claim payments based on vehicle characteristics, and the other was to determine a best approach to predict automobile liability insurance claim payments using customer data. 
  > Data set: "Allstate Claim Prediction Challenge" comes from Kaggle [_here_](https://www.kaggle.com/c/ClaimPredictionChallenge/overview).
 
@@ -36,17 +36,17 @@
 
 
 ## Screenshots
----
+
 ![Example screenshot](https://github.com/vburlay/allstate_claim_prediction/raw/main/image/shiny.PNG)
 
 ## Setup
----
+
 It is necessary to install the following R-Packages additionally: 
 DT, dplyr, plotly, shinyjs, shinyFiles
 
 
 ## Usage
----
+
 * Preparation
 >highCorr <- findCorrelation(correlations, cutoff = .9)
 >filteredSegData <- df[,-highCorr]
@@ -79,12 +79,12 @@ DT, dplyr, plotly, shinyjs, shinyFiles
 predictions <- round(predict(nnetFit, testSet, interval = "predict", level = 0.95),2)
 
 ## Project Status
----
+
 Project is: _complete_ 
 
 
 ## Room for Improvement
----
+
 * By using cross-validation, an increase in the accuracy of the prediction could be achieved. In addition, the amount  of data was not satisfactory for the polynomial and the model was highly prone to overfitting.
 * The clustering procedure did not help the linear regression to demonstrate a good result. It is necessary to analyze the other procedures such as Bayes statistics approach 
 * The selected feature combinations were not suitable for modeling compared to single values.
