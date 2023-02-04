@@ -41,8 +41,9 @@
 ## Setup
 
 It is necessary to install the following R-Packages additionally: 
-DT, dplyr, plotly, shinyjs, shinyFiles
-
+```r
+install.packages(c("DT", "dplyr", "plotly", "shinyjs", "shinyFiles"))
+```
 
 ## Usage
 
