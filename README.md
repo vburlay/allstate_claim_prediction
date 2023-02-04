@@ -9,7 +9,7 @@
  ---
  
 Inline-style: 
-![alt text](https://github.com/vburlay/allstate_claim_prediction/raw/main/images/claim.jpg"Logo Title Text 1") 
+![alt text](https://github.com/vburlay/allstate_claim_prediction/raw/main/images/claim.png"Logo Title Text 1") 
 
 ## Table of Contents 
 * [General Info](#general-information)
