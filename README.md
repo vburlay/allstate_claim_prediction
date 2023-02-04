@@ -1,5 +1,5 @@
 # Allstate Claim Prediction Challenge
-> This project has two main objectives. One was to understand how to effectively predict automobile liability insurance claim payments based on vehicle characteristics, and the other was to determine a best approach to predict automobile liability insurance claim payments using customer data. Both objectives were achieved, but there are opportunities for follow-up projects to sharpen them: 
+ This project has two main objectives. One was to understand how to effectively predict automobile liability insurance claim payments based on vehicle characteristics, and the other was to determine a best approach to predict automobile liability insurance claim payments using customer data. Both objectives were achieved, but there are opportunities for follow-up projects to sharpen them: 
 1) By using cross-validation, an increase in the accuracy of the prediction could be achieved. In addition, the amount  of data was not satisfactory for the polynomial and the model was highly prone to overfitting. 
 
 2) The clustering procedure did not help the linear regression to demonstrate a good result. It is necessary to analyze the other procedures such as Bayes statistics approach 
