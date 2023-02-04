@@ -1,6 +1,6 @@
 # Allstate Claim Prediction Challenge
-> Outline a brief description of your project - Allstate Claim Prediction Challenge.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> This project has two main objectives.One was to understand how to effectively predict automobile liability insurance claim payments based on vehicle characteristics, and the other was to determine a best approach to predict automobile liability insurance claim payments using customer data. Both objectives were achieved, but there are opportunities for follow-up projects to sharpen them: 1) by using cross-validation, an increase in the accuracy of the prediction could be achieved. In addition, the amount of data was not satisfactory for the polynomial and the model was highly prone to overfitting. 2) The clustering procedure did not help the linear regression to demonstrate a good result. It is necessary to analyze the other procedures such as Bayes statistics approach 3) The selected feature combinations were not suitable for modeling compared to single values. 
+> Live demo [_here_](https://mm6iv5-vladimir-burlay.shinyapps.io/Allstate_Claim_Prediction_Challenge/?_ga=2.78724884.1491513741.1672011004-1138473289.1668534479)
 
 ## Table of Contents 
 * [General Info](#general-information)
