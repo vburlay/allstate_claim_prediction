@@ -1,7 +1,5 @@
 # Allstate Claim Prediction Challenge
- 
-Inline-style: 
-![alt text](https://github.com/vburlay/allstate_claim_prediction/raw/main/image/claim.png"Logo Title Text 1") 
+![alt text](https://github.com/vburlay/allstate_claim_prediction/raw/main/image/claim.png ) 
 
 > This project has two main objectives. One was to understand how to effectively predict automobile liability insurance claim payments based on vehicle characteristics, and the other was to determine a best approach to predict automobile liability insurance claim payments using customer data. Both objectives were achieved, but there are opportunities for follow-up projects to sharpen them: 
 * By using cross-validation, an increase in the accuracy of the prediction could be achieved. In addition, the amount  of data was not satisfactory for the polynomial and the model was highly prone to overfitting.
